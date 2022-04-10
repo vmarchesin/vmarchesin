@@ -1,0 +1,38 @@
+@use "colors";
+@use "animations";
+@use "fonts";
+@use "not-found";
+
+html {
+  background-color: colors.$bgColor;
+  font-family: 'Roboto', 'Courier New', Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo {
+  border-radius: 100%;
+}
+
+.MuiSvgIcon-root {
+  color: colors.$icons;
+  &.github:hover {
+    color: colors.$github;
+  }
+  &.linkedin:hover {
+    color: colors.$linkedin;
+  }
+  &.telegram:hover {
+    color: colors.$telegram;
+  }
+  &.email:hover {
+    color: colors.$primaryDarker;
+  }
+}
+
+.Typewriter {
+  font-weight: 500;
+}

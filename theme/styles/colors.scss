@@ -1,0 +1,44 @@
+$bgColor: #EEEEFF;
+$white: #fff;
+
+$primary: #003366;
+$primaryDark: darken($primary, 10%);
+$primaryDarker: darken($primaryDark, 5%);
+
+$secondary: #F95738;
+$secondaryDark: darken($secondary, 10%);
+$secondaryDarker: darken($secondaryDark, 5%);
+
+$icons: #757575;
+
+$overlay: transparentize($primaryDarker, 0.1);
+
+$facebook: #3b5998;
+$github: #212529;
+$linkedin: #0077b5;
+$telegram: #0088cc;
+$twitter: #1DA1F2;
+$whatsapp: #25d366;
+
+:export {
+  bgColor: $bgColor;
+  white: $white;
+  primary: $primary;
+  primaryDark: $primaryDark;
+  primaryDarker: $primaryDarker;
+
+  secondary: $secondary;
+  secondaryDark: $secondaryDark;
+  secondaryDarker: $secondaryDarker;
+
+  icons: $icons;
+
+  overlay: $overlay;
+
+  facebook: $facebook;
+  github: $github;
+  linkedin: $linkedin;
+  telegram: $telegram;
+  twitter: $twitter;
+  whatsapp: $whatsapp;
+}
