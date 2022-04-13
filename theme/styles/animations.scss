@@ -56,3 +56,18 @@
   43% { opacity: 1; transform: scaleX(random(10)) rotate(60deg); }
   66% { opacity: 1; transform: scaleX(random(10)) rotate(-60deg); }
 }
+
+/* Toasty */
+@keyframes slide-in-and-out {
+  0% { margin-bottom: -260px }
+  25%, 75% { margin-bottom: -4px }
+  100% { margin-bottom: -260px }
+}
+
+.toasty {
+  margin-bottom: -260px;
+  animation-name: slide-in-and-out;
+  animation-duration: 1.2s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+}

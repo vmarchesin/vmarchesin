@@ -41,7 +41,7 @@ const Home: NextPage = () => {
                   'Also Backend Developer',
                   '@Prague, Czech Republic',
                   'Dolphin impersonator',
-                  'Board game enthusiast',
+                  'Try the Konami Code',
                 ],
                 autoStart: true,
                 loop: true,
