@@ -25,6 +25,7 @@ const ToastySlideIn: React.FC<ToastySlideInProps> = ({ show }) => {
         src={toastyImg}
         width={256}
         height={256}
+        priority
       />
     </Box>
   );

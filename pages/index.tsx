@@ -10,6 +10,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import AlternateEmailIcon from '@mui/icons-material/AlternateEmail';
 import { Box, Grid, Stack } from '@mui/material';
 
+import logo512 from 'public/logo-512.png';
 import { URLS } from 'utils/consts';
 
 const icons = [
@@ -27,10 +28,11 @@ const Home: NextPage = () => {
         <Stack direction="column" spacing={3}>
           <Image
             className="logo"
-            src="/logo-512.png"
+            src={logo512}
             alt="Logo"
             width={256}
             height={256}
+            priority
           />
           <Box display="flex" justifyContent="center" alignItems="center">
             <Typewriter
