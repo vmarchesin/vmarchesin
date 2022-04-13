@@ -2,6 +2,8 @@ import React from 'react';
 import { Box } from '@mui/material';
 import Image from 'next/image';
 
+import toastyImg from 'public/toasty.png';
+
 interface ToastySlideInProps {
   show: boolean;
 }
@@ -20,7 +22,7 @@ const ToastySlideIn: React.FC<ToastySlideInProps> = ({ show }) => {
     >
       <Image
         alt="Toasty"
-        src="/toasty.png"
+        src={toastyImg}
         width={256}
         height={256}
       />
