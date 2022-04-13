@@ -11,7 +11,7 @@ import theme from 'theme';
 
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const { toasty, playingToasty } = useToasty(1500);
+  const { toasty, playingToasty } = useToasty(1200);
   useKonami(toasty);
 
   return (

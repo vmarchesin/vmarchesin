@@ -7,7 +7,6 @@ interface ToastySlideInProps {
 }
 
 const ToastySlideIn: React.FC<ToastySlideInProps> = ({ show }) => {
-  if (!show) return null;
   return (
     <Box
       sx={{
@@ -15,6 +14,7 @@ const ToastySlideIn: React.FC<ToastySlideInProps> = ({ show }) => {
         bottom: 0,
         right: 0,
         marginBottom: '-4px',
+        display: show ? 'block' : 'none',
       }}
       className="toasty"
     >
