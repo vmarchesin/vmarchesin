@@ -34,7 +34,7 @@ const Home: NextPage = () => {
             height={256}
             priority
           />
-          <Box display="flex" justifyContent="center" alignItems="center">
+          <Box display="flex" justifyContent="center" alignItems="center" height={19}>
             <Typewriter
               options={{
                 strings: [
