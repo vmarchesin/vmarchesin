@@ -13,9 +13,9 @@ import { Box, Grid, Stack } from '@mui/material';
 import { URLS } from 'utils/consts';
 
 const icons = [
-  { className: 'github', Icon: AlternateEmailIcon, href: URLS.GITHUB },
+  { className: 'email', Icon: AlternateEmailIcon, href: URLS.MAIL },
+  { className: 'github', Icon: GitHubIcon, href: URLS.GITHUB },
   { className: 'linkedin', Icon: LinkedInIcon, href: URLS.LINKEDIN },
-  { className: 'email', Icon: GitHubIcon, href: URLS.MAIL },
   { className: 'telegram', Icon: TelegramIcon, href: URLS.TELEGRAM },
 ];
 
