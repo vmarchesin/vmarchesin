@@ -53,7 +53,7 @@ const Home: NextPage = () => {
           <Stack direction="row" spacing={2} display="flex" justifyContent="center" alignItems="center">
             {icons.map(({ Icon, className, href }) => (
               <Link key={href} href={href}>
-                <a>
+                <a target="_blank">
                   <Icon className={cs(className, 'hvr-buzz-out')} fontSize="large" />
                 </a>
               </Link>
