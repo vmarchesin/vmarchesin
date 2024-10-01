@@ -38,9 +38,8 @@ const Home: NextPage = () => {
             <Typewriter
               options={{
                 strings: [
-                  'Engineering Manager @Emplifi',
-                  'Sometimes Frontend Developer',
-                  'Also Backend Developer',
+                  'Engineering Manager @Paylocity',
+                  'Sometimes Developer',
                   '@Prague, Czech Republic',
                   'Dolphin impersonator',
                   'Try the Konami Code',
